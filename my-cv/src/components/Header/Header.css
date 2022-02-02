@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Yanone Kaffeesatz;
+    src: local('SemiBold'),
+    url('../../Fonts/Yanone Kaffeesatz/YanoneKaffeesatz-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:  Open Sans ;
+    src: url('../../Fonts/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+.container {
+    width: 1920px;
+    height: 1030px;
+    margin: auto;
+    display: flex;
+}
+
+.headerBounce {
+    width: 49.375%;
+    height: 932px;
+    background: #EEEEFF;
+    position: relative;
+
+}
+
+.headerName {
+    width: 50.6%;
+    height: 932px;
+    padding-left: 312px;
+    padding-top: 200px;  
+}
+
+.headerContact {
+ width: 550px;
+ height: 552px;
+ position: relative;
+}
+
+.headerContact h1 {
+font-family: Yanone Kaffeesatz;
+font-size: 160px;
+font-style: normal;
+font-weight: 600;
+line-height: 165px;
+letter-spacing: 0em;
+text-align: left;
+text-transform: uppercase;
+padding-bottom: 10px;
+
+
+}
+
+.headerContact h3 {
+font-family: Open Sans;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(0, 0, 0, 0.7);
+padding-bottom: 80px;
+}
+
+.headerLinkContact {
+    width: 380px;
+    height: 80px;
+    background: #AECB0B;
+    border-radius: 10px;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 90px;
+font-family: Open Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+
+.yellowLine {
+    position: absolute;
+width: 220px;
+height: 10px;
+
+top: 135px;
+background: #F8F32B;
+}
+
+.bigFrame{
+    width: 590px;
+    height: 613px;
+    background-image: url(./Frames/Big.png);
+    background-size: cover;
+    position: absolute;
+    top: 168px;
+    left: -150px;
+    z-index: 1;
+    
+}
+
+.smallFrame {
+    width: 324px;
+    height: 336px;
+    background-image: url(./Frames/Small.png);
+    background-size: cover;
+    position: absolute;
+    left: 250px;
+    top: 117px;
+    z-index: 0;
+}
+
+

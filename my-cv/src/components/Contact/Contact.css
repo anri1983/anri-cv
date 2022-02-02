@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Yanone Kaffeesatz;
+    src: url('../../Fonts/Yanone Kaffeesatz/YanoneKaffeesatz-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:  Open Sans ;
+    src: url('../../Fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+}
+
+.contactMain {
+    width: 1920px;
+    height: 826px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.contactContainer {
+    width: 67.5%;
+    height: 826px;
+    margin: auto;
+    position: relative;
+}
+
+.contactContainer h2 {
+font-family: Yanone Kaffeesatz;
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 60px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #2B2D42;
+}
+
+.contactContainer p {
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 28.43px;
+line-height: 39px;
+color: #000000;
+width: 620px;
+margin-top: 37px;
+padding-bottom: 30px;
+}
+
+.yellowSt {
+position: absolute;
+width: 110px;
+height: 10px;
+top: 55px;
+background: #F8F32B;
+}
+
+.linkMessage {
+width: 380px;
+height: 80px;
+background: #aecb0b;
+border-radius: 10px;
+border: none;
+font-family: Open Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+color: #ffffff;
+margin-top: 80px;
+}
+
+.linkMessage:hover{
+    background: #96af08;
+    color: #ffffff;
+}
+
+.inputName {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.inputName input {
+    width: 49%;
+}
+
+.inputForm input {
+    height: 80px;
+}
+
+.inputSubject {
+width: 100%;
+margin-top: 24px;
+}
+
+#inputMessage {
+width: 100%;
+height: 250px;
+margin-top: 24px;
+}

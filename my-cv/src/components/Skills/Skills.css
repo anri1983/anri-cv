@@ -1,0 +1,114 @@
+/* .skillsForm{
+    width: 90%;
+    height: 1000px;
+    background: rgba(255, 208, 0, 0.63);
+    margin: auto;
+} */
+
+@font-face {
+    font-family: Yanone Kaffeesatz;
+    src: url('../../Fonts/Yanone Kaffeesatz/YanoneKaffeesatz-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:  Open Sans ;
+    src: url('../../Fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+}
+
+.skill {
+    width: 1920px;
+    height: 958px;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.skillMain {
+    width: 67.5%;
+    height: 608px;
+    display: flex;
+    margin: auto;
+
+}
+
+.leftBlock{
+    width: 50%;
+    height: auto;
+}
+
+
+.leftBlock h2 {
+font-family: Yanone Kaffeesatz;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px;
+letter-spacing: 0.05em;
+text-align: left;
+color: #2B2D42;
+text-transform: uppercase;
+
+}
+
+.leftBlock p {
+font-family: Open Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+width: 526px;
+padding-top: 52px;
+}
+
+.rightBlock {
+    width: 50%;
+    height: auto;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+ .jsImage {
+     width: 48px;
+     height: 48px;
+     background-image: url(./Img/logos_javascript.png);
+     
+ }
+
+ .jsBlock {
+   width: 306px;
+   height: 290px;
+   border: solid rgb(128, 128, 128, 0.2) 1px;
+   padding: 12px;
+   margin: auto;
+ }
+
+ .jsBlock h3 {
+     width: 282px;
+     height: 39px;
+     margin-top: 24px;
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+ }
+
+ .jsBlock p {
+     width: 242px;
+     height: 145px;
+     margin-top: 12px;
+    font-family: Open Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(0, 0, 0, 0.5);
+    vertical-align: bottom;
+ }
