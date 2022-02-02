@@ -20,10 +20,10 @@ function Footer () {
             </div>
           </div>
           <div className='contactData'>
-            <div>
+            <div className='contactPhone'>
               <p>+375 (29) 173-43-33</p>
             </div>
-            <div>
+            <div className='contactMail'>
               <p>31101983@rambler.ru</p>
             </div>
           </div>
